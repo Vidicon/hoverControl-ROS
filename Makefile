@@ -50,7 +50,7 @@ startup_stm32f103xe.s
 #######################################
 # binaries
 #######################################
-PREFIX = arm-none-eabi-
+PREFIX = /home/vidicon/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-
 CC = $(PREFIX)gcc
 AS = $(PREFIX)gcc -x assembler-with-cpp
 CP = $(PREFIX)objcopy
